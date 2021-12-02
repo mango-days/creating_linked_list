@@ -24,9 +24,6 @@ class LinkedList :
         else : self.head = Node ( data )
 
 llist = LinkedList()
-llist.add ( 1 )
-llist.add ( 2 )
-llist.add ( 3 )
-llist.add ( 4 )
-llist.add ( 5 )
+array = [ 6, 4, 9, 5, 2, 8 ]
+for values in array : llist.add ( values )
 llist.printList()
